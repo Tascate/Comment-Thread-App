@@ -4,9 +4,9 @@ Comment thread web application using a React frontend with a Express.js and Post
 
 ## Pre-setup
 
-### Install and start a PostgreSQL database
+### Install and start a [PostgreSQL](https://www.postgresql.org/download/) database
 
-This requires a PostgreSQL database that Express.js is able to connect to. Setup a PostgreSQL database and edit the .env variables accordingly
+This requires a [PostgreSQL](https://www.postgresql.org/download/) database that Express.js is able to connect to. Setup a [PostgreSQL](https://www.postgresql.org/download/) database and edit the .env variables accordingly
 
 ### Setup env variables
 
