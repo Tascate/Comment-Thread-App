@@ -10,61 +10,61 @@ This requires a PostgreSQL database that Express.js is able to connect to. Setup
 
 ### Setup env variables
 
-Create a .env file in the root directory and setup environment variables
+Create a .env file in the root directory and setup environment variables according to the PostgreSQL database
 
 ```
 POSTGRES_USER=my_username
 POSTGRES_PASSWORD=my_password
-POSTGRES_DATABASE=database_name
+POSTGRES_DATABASE=user_comments
 CLIENT_URL=localhost
 CLIENT_PORT=5432
 PORT=3001
 VITE_SERVER_URL=http://localhost:3001/
 ```
 
-## Building
+## Building and Running the Express.js server
 
-### Install packages for Express.js server and React app
+### Install packages
 
-Install packages from root directory and client directory
+Install packages from root directory
 
 ```
 npm install
-cd client
-npm install
 ```
 
-## Testing
+### Start the Server
 
-### Start the server
-
-Run the command in the root directory to start the server.
+Start the server from the root directory
 
 ```
-cd root
 npm start
 ```
 
-### Start the React app
+## Building and Running the React website
 
-Run the start in the client directory to start the React website.
+### Install client packages
 
 ```
 cd client
+npm install
+```
+
+### Start the Vite dev server
+
+```
 npm run dev
 ```
 
-Alternatively
+Alternatively,
 
 ```
-cd client
 npm run build
 npm run preview
 ```
 
-### Open website
+### Preview website
 
-Open website url to see the React website. Default is:
+Open the website url to see the React website. Default url is:
 
 ```
 http://localhost:3001/
