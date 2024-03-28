@@ -1,0 +1,89 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+}
+
+span {
+  opacity: 80%;
+}
+
+body {
+  font-size: 18px;
+}
+
+img {
+  width: 128px;
+}
+
+button {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.comment-section {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  gap: 3rem;
+}
+.comment-section > div:last-child {
+  order: -1;
+}
+
+.comment-section > form {
+  position: sticky;
+  align-self: start;
+  top: 2rem;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.comment-content {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.comment hr {
+  opacity: 10%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.draft-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.draft-text {
+  height: 300px;
+  resize: vertical;
+  font-size: inherit;
+  font-family: inherit;
+}
