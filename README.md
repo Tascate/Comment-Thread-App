@@ -2,15 +2,20 @@
 
 Comment thread web application using a React frontend with a Express.js and PostgreSQL backend and database.
 
-## Pre-setup
+## Setup environment
 
-### Install and start a [PostgreSQL](https://www.postgresql.org/download/) database
+### Get Software
 
-This requires a [PostgreSQL](https://www.postgresql.org/download/) database that Express.js is able to connect to. Setup a [PostgreSQL](https://www.postgresql.org/download/) database and edit the .env variables accordingly
+1. Install [Node.js](https://nodejs.org/en/).
+1. Install [PostgreSQL](https://www.postgresql.org/download/).
+
+### Start a [PostgreSQL](https://www.postgresql.org/download/) database
+
+This requires a [PostgreSQL](https://www.postgresql.org/download/) database that Express.js is able to connect to. Setup a [PostgreSQL](https://www.postgresql.org/download/) database like from [http://www.postgresqltutorial.com/load-postgresql-sample-database/](http://www.postgresqltutorial.com/load-postgresql-sample-database/.) and edit the .env variables accordingly so the server can connect to the PostgreSQL database.
 
 ### Setup env variables
 
-Create a .env file in the root directory and setup environment variables according to the PostgreSQL database
+Create a .env file in the root directory and setup environment variables according to the PostgreSQL database and Express.js server url.
 
 ```
 POSTGRES_USER=my_username
